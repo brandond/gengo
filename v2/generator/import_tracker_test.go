@@ -72,7 +72,7 @@ func TestNewImportTracker(t *testing.T) {
 				{Name: types.Name{Package: "bar.com/external/pkg"}},
 			},
 			expectedImports: []string{
-				`externalpkg "bar.com/external/pkg"`,
+				`pkg "bar.com/external/pkg"`,
 			},
 		},
 	}
